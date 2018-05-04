@@ -1,0 +1,345 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documento sin título</title>
+<link rel="stylesheet" href="style.css">
+<link href="jquery-mobile/jquery.mobile.theme-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- <script src="jquery-mobile/jquery-1.11.1.min.js" type="text/javascript"></script> -->
+<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.3.0.min.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<div data-role="page" id="home">
+  <div data-role="header">
+    <h1>Informatica Mazatlan</h1>
+  </div>
+  <div data-role="content">
+  <img src="img/logofimaz.png" alt="" class="imgInicio" >
+  <ul data-role="listview" data-inset="true">
+    <li><a href="#fimaz">FIMAZ</a><a href="#">Predet.</a></li>
+    <li><a href="#oferta">Oferta Educativa</a><a href="#">Predet.</a></li>
+    <li><a href="#registro">Registrate</a><a href="#">Predet.</a></li>
+    <li><a href="#contactos">Contactos</a><a href="#">Predet.</a></li>
+  </ul>
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar"> 
+    	<ul>
+        	<li><a href="#" data-role="button" 		data-icon="back">Atras</a></li>
+            <li><a href="#" data-role="button" 		data-icon="home">Home</a></li>
+        
+            <li><a href="#info" data-rel="dialog" data-role="button" 		data-icon="info">Info</a></li>
+            
+            <li><a href="#" data-role="button" data-icon="forward">Siguiente</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Pagina Fimaz -->
+<div data-role="page" id="fimaz">
+  <div data-role="content">
+   <h1 class="titulo1">FIMAZ</h1>
+      <center><img src="img/edificio.jpg" alt="" style="width: 70%; margin-top:10px; margin-bottom: 10px;"></center>
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>Historia</h3>
+        <p class="texto">Durante el periodo rectoral del Lic. Audómar Ahumada Quintero (1985-1989), y siendo Coordinador Académico en la Zona Sur el M.C. Juan de Dios Garay Velázquez, se gestaron los trabajos para crear una licenciatura en informática. Como primer paso se implementó una Especialidad en Microcomputadoras apoyados por la Facultad de Ciencias de la Universidad Nacional Autónoma de México (UNAM), cuyo objetivo principal fue capacitar y actualizar docentes universitarios en el área informática. Teniendo como sede física el Departamento de Cómputo de la Coordinación Académica Zona Sur, bajo la responsabilidad del Dr. Raúl Carvajal Valdés y como encargados del laboratorio a la M.C. Rosa Elena Colado Martínez y el M.C. Rafael Mendoza Zatarain.
+        <br><br>
+Posteriormente durante la rectoría del Ing. David Moreno Lizárraga (1989-1993) se realizaron estudios de mercado y factibilidad académica a través del departamento de Planeación y Estadística de la Universidad con la finalidad de una posible implementación de la carrera de Licenciatura en Informática en las zonas centro y sur de la Universidad.
+<br><br>
+Durante todos estos años (1985-1993) resultó invaluable el apoyo recibido por parte de dos académicos: El Dr. Carlos García Moreira de la Facultad de Ciencias de la UNAM (qepd) y el Dr. César González Beltrán de la Unidad de Informática del Instituto Nacional de Cardiología, quienes con sus cursos, consejos, apoyo académico y trabajo desinteresado, lograron consolidar la base académica de lo que hoy es nuestra Facultad. Es por eso que actualmente, nuestra biblioteca y laboratorio de cómputo, respectivamente, llevan los nombres de estos personajes, como un reconocimiento a su gran labor desarrollada.
+<br><br>
+El 14 de julio de 1992 se presenta el proyecto de nueva carrera al pleno de H. Consejo Universitario y es aprobado. Iniciando formalmente la Licenciatura en Informática el mes de Septiembre de 1992 y quedando al frente como Coordinador de la misma, el Dr. Raúl Carvajal Valdés. Esta carrera inició actividades en el fraccionamiento Playa Sur, donde tomaron clase estudiantes de la primera y segunda generación, durante tres años aproximadamente.</p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Misión y Visión</h3>
+        <p class="texto">
+           <h4>Misión</h4>
+            Formar profesionales de alto nivel, portadores de una cultura científica y humanística que respondan a las necesidades sociales sobre el manejo automatizado de la información y las tecnologías computacionales.
+            <br><br>
+            <h4>Visión</h4>
+            La Facultad de Informática Mazatlán oferta dos programas de licenciatura acreditados y un programa de maestría en el PNPC, manteniendo una alta competitividad y liderazgo académico en la formación integral de profesionales en el campo disciplinario de la Informática y los sistemas de información, a través de la certificación en herramientas computacionales. Con una planta docente habilitada con estudios de posgrado y miembros del SNI, que desarrollan actividades de docencia, tutoría, investigación, vinculación y gestión; integrada en cuerpos académicos consolidados y en vías de consolidación que cultivan Líneas de Generación y Aplicación del Conocimiento que contribuyen al avance científico y tecnológico. 
+            
+        </p>
+      </div>
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Organigrama</h3>
+        <p><img src="img/Organigrama.jpg" style="width:100%"></p>
+      </div>
+    </div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar"> 
+    	<ul>
+        	<li><a href="#" data-rel="back" data-role="button" 		data-icon="back">Atras</a></li>
+            <li><a href="#home" data-role="button" 		data-icon="home">Home</a></li>
+            
+            <li><a href="#info" data-role="button" 		data-icon="info">Info</a></li>
+            
+            <li><a href="#oferta" data-role="button" data-icon="forward">Siguiente</a></li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Pagina Oferta Educativa -->
+<div data-role="page" id="oferta">
+  <div data-role="content">
+   <h1 class="titulo1">Oferta Educativa</h1>
+   <center><img src="img/ofer.png" style="width:30%;"></center>
+   
+   <div data-role="collapsible-set">
+         <div data-role="collapsible">
+           <h3>Licenciatura en Informática (2016)</h3>
+           <p>
+               
+               <img src="img/planE2016.jpg" style="width:100%; margin-bottom: 10px;"><br>
+              <p class="texto">
+                  El objetivo del Programa Educativo Licenciatura en Informática es formar profesionales emprendedores, eficientes y con valores éticos, capacitados en la creación y mantenimiento de sistemas de información para la administración.
+                <br><br>
+                En cuanto al perfil de ingreso, se buscará que el candidato a ingresar cuente con las siguientes características:
+
+                <h4>Conceptual</h4>
+
+                Nociones en técnicas administrativas y de sistemas, en las matemáticas y la física.
+
+                <h4>Procedimental</h4>
+
+                Trabajo con equipos de cómputo, capacidad de razonamiento lógico-matemático, pensamiento gráfico y habilidades de comunicación.
+
+                <h4>Actitudinal</h4>
+
+                Gusto por la resolución de problemas, iniciativa para el auto-aprendizaje y actitud de servicio.
+                <br><br>
+                <h3>Perfil de Egreso por Competencias Profesionales Integradas</h3>
+                La Licenciatura en Informática se compromete con la formación de un egresado o egresada que domina las siguientes competencias:
+                
+                <h4>Competencias Genericas</h4>
+                <ul>
+                    <li>Comprende información de fuentes diversas y la procesa para comunicarse tanto de forma oral como escrita, de manera asertiva y atendiendo a criterios de confiabilidad de las fuentes y normas de citación.</li>
+                    <li>Actúa de manera ética, respetando leyes, reglamentos y normas del ámbito de la Informática para favorecer el desarrollo de una mejor sociedad.</li>
+                    <li>Plantea y resuelve problemas  en los ámbitos en que se desenvuelve, pensando de forma crítica y autocrítica, con actitud de empatía y respeto a las diferentes perspectivas involucradas.
+                    </li>
+                    <li>Participa y difunde la Sustentabilidad en sus diferentes ámbitos para coadyuvar en el aseguramiento de las necesidades de las actuales y futuras generaciones, con base en una conciencia planetaria, valores de equidad, justicia y responsabilidad social.</li>
+                    <li>Gestiona proyectos que consideran el contexto y sus demandas con base en criterios de calidad que incluyen la sustentabilidad, la ética y la eficacia.</li>
+                    <li>Utiliza el idioma inglés para comprender información del área tecnológica y comunicarse con otras personas en entornos nacionales e internacionales, respetando su cultura y sus costumbres.</li>
+                    <h4>Competencias Genericas</h4>
+                    <li>Aplica fundamentos matemáticos, principios algorítmicos y teorías de Ciencias de la Computación para la modelación y diseño de soluciones informáticas.</li>
+                    <li>Comprende el funcionamiento de computadoras y sistemas digitales, así como los principios físicos que los sustentan, para formular especificaciones e integrar equipos diversos para fines particulares.</li>
+                    <li>Diseña, configura y administra redes computacionales, aplicando normas y estándares vigentes para distribuir y compartir recursos computacionales, procesos e información.</li>
+                    <li>Diseña y desarrolla software de comunicaciones e implementa protocolos con calidad de servicio para soportar medios de comunicación masivos.</li>
+                    <li>Estudia, define y construye los componentes de software que hacen posible el funcionamiento de las computadoras en diferentes niveles operativos, para el desarrollo de programas.</li>
+                    <li>Utiliza conocimientos teóricos, prácticos, y un conjunto de metodologías para la construcción de sistemas de software, considerando su análisis, diseño, confiabilidad, funcionalidad, costo, seguridad y  facilidades de mantenimiento.</li>
+                    <li>Conoce los conceptos de comunicación e internet y desarrolla aplicaciones de base de datos basadas en Web (servidor – cliente), empleando diversas tecnologías.</li>
+                    <li>Diseña, desarrolla y administra bases de datos conforme a requerimientos definidos, normas organizacionales de manejo y seguridad de la información utilizando tecnologías emergentes.</li>
+                    <li>Diseña e implementa interfaces hombre-máquina y máquina-máquina para la automatización de sistemas, con el fin de buscar  novedosas maneras de integración de la tecnología en la sociedad.</li>
+                    <li>Comprende conceptos, normas, experiencias y motivaciones que hacen posible la integración de unidades de informática y su personal en las organizaciones y en la sociedad en general.</li>
+                    <li>Gestiona proyectos de intervención para la atención de problemas y necesidades del área de la informática aplicando diversas metodologías.</li>
+              </ul>               
+           </p><!--Parte de Cntenido -->
+         </div>
+     </div>
+     
+     <div data-role="collapsible-set">
+         <div data-role="collapsible" >
+           <h3>Licenciatura en Ingeniería en Sistemas de Información (2016)</h3>
+           <p>
+               
+               <img src="img/planEIng2016.jpg" style="width: 100%; margin-bottom;">
+              <p class="texto">
+                  En cuanto al perfil de ingreso, se buscará que el candidato a ingresar cuente con las siguientes características:
+                <br>
+
+                <h4>Conceptual</h4>
+
+               Domina los conocimientos básicos en matemáticas, física e informática.
+
+                <h4>Procedimental</h4>
+
+               Posee un pensamiento analítico y lógico.<br>
+
+                Gusto por el trabajo con equipo de cómputo.<br>
+
+                Posee Habilidades de comunicación.<br>
+
+                <h4>Actitudinal</h4>
+
+                Asume una posición activa con respecto al estudio y al desarrollo de proyectos y la resolución de problemas.
+                <br><br>
+                <h3>Perfil de Egreso por Competencias Profesionales Integradas</h3>
+                Los egresados del programa educativo de Licenciatura en Ingeniería en Sistemas de Información mostrarán el dominio de las siguientes competencias:
+                
+                <ul>
+                   <h4>Competencias Genericas</h4>
+                    <li> Comprende información de fuentes diversas y la procesa para comunicarse tanto de forma oral como escrita, de manera asertiva y atendiendo a criterios de confiabilidad de las fuentes y normas de citación.</li>
+                    <li>Actúa de manera ética, respetando leyes, reglamentos y normas del ámbito de la Informática para favorecer el desarrollo de una mejor sociedad.</li>
+                    <li>Plantea y resuelve problemas  en los ámbitos en que se desenvuelve, pensando de forma crítica y autocrítica, con actitud de empatía y respeto a las diferentes perspectivas involucradas.
+                    </li>
+                    <li>Participa y difunde la Sustentabilidad en sus diferentes ámbitos para coadyuvar en el aseguramiento de las necesidades de las actuales y futuras generaciones, con base en una conciencia planetaria, valores de equidad, justicia y responsabilidad social.</li>
+                    <li>Gestiona proyectos que consideran el contexto y sus demandas con base en criterios de calidad que incluyen la sustentabilidad, la ética y la eficacia.</li>
+                    <li>Utiliza el idioma inglés para comprender información del área tecnológica y comunicarse con otras personas en entornos nacionales e internacionales, respetando su cultura y sus costumbres.</li>
+                <h4>Competencias Genericas</h4>
+                    <li>Aplica fundamentos matemáticos, principios algorítmicos y teorías de Ciencias de la Computación para la modelación y diseño de soluciones informáticas.</li>
+                    <li>Comprende el funcionamiento de computadoras y sistemas digitales, así como los principios físicos que los sustentan, para formular especificaciones e integrar equipos diversos para fines particulares.</li>
+                    <li>Diseña, configura y administra redes computacionales, aplicando normas y estándares vigentes para distribuir y compartir recursos computacionales, procesos e información.</li>
+                    <li>Diseña y desarrolla software de comunicaciones e implementa protocolos con calidad de servicio para soportar medios de comunicación masivos.</li>
+                    <li>Estudia, define y construye los componentes de software que hacen posible el funcionamiento de las computadoras en diferentes niveles operativos, para el desarrollo de programas.</li>
+                    <li>Utiliza conocimientos teóricos, prácticos, y un conjunto de metodologías para la construcción de sistemas de software, considerando su análisis, diseño, confiabilidad, funcionalidad, costo, seguridad y  facilidades de mantenimiento.</li>
+                    <li>Conoce los conceptos de comunicación e internet y desarrolla aplicaciones de base de datos basadas en Web (servidor – cliente), empleando diversas tecnologías.</li>
+                    <li>Diseña, desarrolla y administra bases de datos conforme a requerimientos definidos, normas organizacionales de manejo y seguridad de la información utilizando tecnologías emergentes.</li>
+                    <li>Diseña e implementa interfaces hombre-máquina y máquina-máquina para la automatización de sistemas, con el fin de buscar  novedosas maneras de integración de la tecnología en la sociedad.</li>
+                    <li>Comprende conceptos, normas, experiencias y motivaciones que hacen posible la integración de unidades de informática y su personal en las organizaciones y en la sociedad en general.</li>
+                    <li>Gestiona proyectos de intervención para la atención de problemas y necesidades del área de la informática aplicando diversas metodologías.</li>
+                </ul>
+              </p>
+               
+           </p>
+         </div><!--Parte de Cntenido -->
+      </div>
+      
+      <div data-role="collapsible-set">
+         <div data-role="collapsible">
+           <h3>Planes 2005</h3>
+           <p>
+               
+               <h3>Licenciatura en Informática</h3>
+              <img src="img/LicInfo2005.jpg" style="width:100%; margin-bottom:10px;">
+              <p class="texto"><h4>Objetivo</h4>Formar profesionales capacitados en la creación y mantenimiento de sistemas de información para la administración.</p>
+              <h3>Licenciatura en Ingeniería en Sistemas de Información</h3>
+              <img src="img/LicInfo2005.jpg" style="width:100%; margin-bottom:10px;">
+              <p class="texto"><h4>Objetivo</h4>Formar profesionistas certificados de nivel competitivo a escala nacional e internacional, avalados por una solida base teórica-practica que le permita analizar, diseñar y producir sistemas de software de calidad par ala solución de diversas problemáticas del entorno. Responsables de la formulación, planeación, implementación y mantenimiento de sistemas de información que garanticen la disponibilidad de altos niveles de servicio.</p>
+               
+           </p><!--Parte de Cntenido -->
+         </div>
+   		</div>
+   
+          
+          
+   </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar"> 
+    	<ul>
+        	<li><a href="#" data-rel="back" data-role="button" 		data-icon="back">Atras</a></li>
+            <li><a href="#home" data-role="button" 		data-icon="home">Home</a></li>
+            
+            <li><a href="#info" data-role="button" 		data-icon="info">Info</a></li>
+            
+            <li><a href="#registro" data-role="button" data-icon="forward">Siguiente</a></li>
+        </ul>
+</div>
+  </div>
+</div>
+
+
+<!-- Pagina Registrate -->
+<div data-role="page" id="registro">
+  <div data-role="content">
+    <h2 class="titulo1">Formulario de Registro</h2>
+    <div id="form">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Apeido(s)">
+        <input type="text" placeholder="Edad">
+        <select>
+            <option>Malculino</option>
+            <option>Femenino</option>
+        </select>
+        <input type="email" placeholder="Correo">
+        Fecha de Nacimiento:<br>
+        <input type="date" placeholder="Fecha">
+        Aficiones: <br> 
+        <textarea placeholder="..." class="textArea" cols="30" rows="5">
+            
+        </textarea>
+        
+        <a href="#" data-role="button" style="color: black;   text-decoration:none;">Aceptar</a>
+    </div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="navbar"> 
+    	<ul>
+        	<li><a href="#" data-rel="back" data-role="button" data-icon="back">Atras</a></li>
+            <li><a href="#home" data-role="button" 		data-icon="home">Home</a></li>
+            
+            <li><a href="#info" data-role="button" 		data-icon="info">Info</a></li>
+           
+            <li><a href="#contactos" data-role="button" data-icon="forward">Siguiente</a></li>
+        </ul>
+</div>
+  </div>
+</div>
+
+<!-- Pagina Contactos   -->
+<div data-role="page" id="contactos">
+  <div data-role="content">
+    <h2 class="titulo1">Contactos</h2>
+    <ul data-role="listview" data-filter="true" data-placeholder="Buscar">
+      <li><a href="#">
+        <h3>Juan Jose Garate</h3>
+        <p>Estudiante</p>
+      </a></li>
+      <li><a href="#">
+        <h3>Jesus Ivan Aramburo</h3>
+        <p>Estudiante</p>
+      </a></li>
+      <li><a href="#">
+        <h3>Josue Raul Martinez del Valle</h3>
+        <p>Estudiante</p>
+      </a></li>
+      <li><a href="#">
+        <h3>Joel Reta Gutierrez</h3>
+        <p>Estudiante</p>
+      </a></li>
+      <li><a href="#">
+        <h3>Roberto Aguilar</h3>
+        <p>Estudiante</p>
+      </a></li>
+    </ul>
+       
+        
+  </div>
+  
+  <div data-role="footer"  data-position="fixed">
+    <div data-role="navbar"> 
+    	<ul>
+        	<li><a href="#" data-rel="back" data-role="button" data-icon="back">Atras</a></li>
+            <li><a href="#home" data-role="button" 		data-icon="home">Home</a></li>
+            
+            <li><a href="#info" data-role="button" 		data-icon="info">Info</a></li>
+            
+            <li><a href="#fimaz" data-role="button" data-icon="forward">Siguiente</a></li>
+        </ul>
+</div>
+  </div>
+</div>
+
+<!-- Pagina Info -->
+
+<div data-role="page" id="info">
+  <div data-role="header">
+    <h1>Informacion</h1>
+  </div>
+  <div data-role="content">
+      <center><h4>Aplicacion creada con JQuery Mobile y PhoneGap, mediante Dreamweaver.</h4>
+          <b> Joel Reta Gutierrez / Abril de 2018</b></center>
+       <a href="#" data-rel="back" data-role="button">Cerrar</a>
+  </div>
+</div>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
